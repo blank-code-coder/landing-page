@@ -14,6 +14,11 @@ body {
 
 .footer {
   background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  color: #f9faf8;
 }
 
 .header {
@@ -74,4 +79,62 @@ button {
   border: 1px solid #3382f6;
   color: white;
   font-weight: bold;
+}
+
+.info-title {
+  font-size: 32px;
+  color: #1f2937;
+  font-weight: 800;
+  padding: 50px;
+}
+
+.section.information {
+  text-align: center;
+  padding: 0px 150px 150px 150px;
+}
+
+.info {
+  max-width: 150px;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info.text {
+  color: #1f2937;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+
+.section.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 150px;
+  background-color: #e5e7eb;
+  text-align: center;
+}
+
+.quote.text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  margin-bottom: 20px;
+  max-width: 800px;
+  text-align: left;
+  font-weight: 300;
+}
+
+.quote.author {
+  font-weight: bold;
+  margin-left: 500px;
 }
