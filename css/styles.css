@@ -65,3 +65,13 @@ a {
 .image.hero {
   padding: 100px;
 }
+
+button {
+  cursor: pointer;
+  padding: 8px 30px;
+  border-radius: 8px;
+  background: #3382f6;
+  border: 1px solid #3382f6;
+  color: white;
+  font-weight: bold;
+}
