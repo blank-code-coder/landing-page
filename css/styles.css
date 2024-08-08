@@ -107,6 +107,11 @@ button {
   color: #1f2937;
 }
 
+.info img {
+  border: 3px solid #3382f6;
+  border-radius: 5px;
+}
+
 .hero-text {
   display: flex;
   flex-direction: column;
